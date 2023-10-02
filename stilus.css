@@ -1,7 +1,10 @@
+main{
+    background-color:beige
+}
 .nagykep{
+
     width: 70%;
     border-radius:  10px;
-    border: 1px solid gray;
     padding:  10px;
     margin: 10px auto;
     display: flex;
@@ -17,4 +20,14 @@
 button{
     border:1px groove darkgray;
     border-radius: 5px;
+}
+.kiskep{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.kiskep img{
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 2px;
+    max-width: 100%;
 }

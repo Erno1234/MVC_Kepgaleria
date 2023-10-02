@@ -8,10 +8,13 @@ class Model {
     this.#id = 0;
   }
   getList(){
-    return {...this.#kepLista}
+    return this.#kepLista
   }
   getAktKep(){
     return this.#kepLista[this.#id];
+  }
+  getIDKep(id){
+    return this.#kepLista[id];
   }
   jobb() {
     this.#id++;
