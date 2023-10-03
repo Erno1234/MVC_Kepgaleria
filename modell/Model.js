@@ -14,6 +14,7 @@ class Model {
     return this.#kepLista[this.#id];
   }
   getIDKep(id){
+    this.#id = id;
     return this.#kepLista[id];
   }
   jobb() {
