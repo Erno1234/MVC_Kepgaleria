@@ -1,4 +1,4 @@
-import Controller from "./controller/Controller.js";
+import DataController from "./controller/DataController.js";
 $(function () {
-  new Controller();
+  new DataController();
 });
